@@ -1,6 +1,3 @@
-# publicfile
-公开文件
-
 ### 一键部署服务
 修改deployService.sh中的变量，选择部署 pgsql or springboot项目
 在服务器执行 
