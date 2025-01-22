@@ -3,7 +3,7 @@
 # 定义变量
 
 #定义需要部署什么服务
-DEPLOY_PGSQL="false"
+DEPLOY_PGSQL="true"
 DEPLOY_SPRINGBOOT="true"
 
 
