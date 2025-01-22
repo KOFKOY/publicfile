@@ -5,7 +5,7 @@
 
 #### - 通过clouDNS免费获取二级域名，比如 test.ip-ddns.com
 #### - 在CF中添加站点 test.ip-ddns.com，添加完成后会有两个 CF的NS名称服务器  比如  savanna.ns.cloudflare.com  trey.ns.cloudflare.com
-#### - 在clouDNS中添加两条对应的NS记录,主机填写test.ip-ddns.com
+#### - 在clouDNS中添加两条对应的NS记录,主机填写test.ip-ddns.com 。 添加一条CNAME记录  *.test.ip-ddns.com CNAME	 ip.sb 
 #### - 填写完成后等待一段时间，观察CF中你添加的 test.ip-ddns.com 是否激活
 #### - 激活完成后，查看边缘证书，找到通用的证书，查看证书验证 TXT 名称，比如 _acme-challenge.test.ip-ddns.com
 #### - 在clouDNS中添加两条NS记录 主机填写_acme-challenge.test.ip-ddns.com 分别对应 savanna.ns.cloudflare.com  trey.ns.cloudflare.com
