@@ -42,6 +42,7 @@ if [ "$DEPLOY_PGSQL" = "true" ]; then
 	echo "启动pgsql容器"
 	docker run -d --name pgsql \
 	  --network java_pgsql_network \
+	  --restart=always \
 	  -e POSTGRES_DB="$DB" \
 	  -e POSTGRES_USER="$DB_USER" \
 	  -e POSTGRES_PASSWORD="$DB_PWD" \
@@ -75,6 +76,7 @@ if [ "$DEPLOY_SPRINGBOOT" = "true" ]; then
 	docker run -d --name magic -v $(pwd)/"$JAVA_JAR":/app.jar \
 			   --network java_pgsql_network \
 			   -e SPRING_PROFILES_ACTIVE=prod \
+			   --restart=always \
 		   -e DB_HOST=pgsql \
 		   -e DB_PORT=5432 \
 		   -e DB_NAME="$DB" \
