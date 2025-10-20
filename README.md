@@ -14,3 +14,8 @@ sh deployService.sh && \
 rm deployService.sh
 ```
 
+
+代理地址
+```txt
+https://cdn.jsdelivr.net/gh/KOFKOY/publicfile@main/subs-check/mihomo.yaml
+```
