@@ -1,694 +1,130 @@
 proxies:
-  - alterId: 0
-    cipher: ''
-    client-fingerprint: random
-    name: "\U0001F1E9\U0001F1EADE_1|15.4MB/s"
-    network: ws
-    port: 443
-    server: www.visa.com.hk
-    skip-cert-verify: true
-    tfo: false
-    tls: true
-    type: vless
-    uuid: 1955487c-1f99-45df-867f-04bfbbf28f8d
-    ws-opts:
-      headers:
-        Host: do-fra1.862400.xyz
-      path: /announcement
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    servername: do-fra1.862400.xyz
-  - alterId: 0
-    cipher: ''
-    client-fingerprint: random
-    name: "\U0001F1EC\U0001F1E7GB_1|16.0MB/s"
-    network: ws
-    port: 443
-    server: ct.877774.xyz
-    skip-cert-verify: true
-    tfo: false
-    tls: true
-    type: vless
-    uuid: 1955487c-1f99-45df-867f-04bfbbf28f8d
-    ws-opts:
-      headers:
-        Host: do-lon1.862400.xyz
-      path: /announcement
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    servername: do-lon1.862400.xyz
-  - alterId: 0
-    cipher: ''
-    client-fingerprint: random
-    name: "\U0001F1FA\U0001F1F8US_1|13.9MB/s"
-    network: ws
-    port: 443
-    server: freev2.cloudflare.182682.xyz
-    skip-cert-verify: true
-    tfo: false
-    tls: true
-    type: vless
-    uuid: 1955487c-1f99-45df-867f-04bfbbf28f8d
-    ws-opts:
-      headers:
-        Host: do-blr1.862400.xyz
-      path: /announcement
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    servername: do-blr1.862400.xyz
-  - cipher: aes-256-cfb
-    name: "\U0001F1EC\U0001F1E7GB_2|7.4MB/s"
-    password: amazonskr05
-    port: 443
-    server: 18.175.147.245
-    skip-cert-verify: true
-    tfo: false
-    type: ss
-    udp: true
-  - cipher: aes-256-cfb
-    name: "\U0001F1E9\U0001F1EADE_2|7.4MB/s"
-    password: amazonskr05
-    port: 443
-    server: 3.120.111.227
-    skip-cert-verify: true
-    tfo: false
-    type: ss
-    udp: true
-  - cipher: aes-256-cfb
-    name: "\U0001F1EC\U0001F1E7GB_3|7.3MB/s"
-    password: amazonskr05
-    port: 443
-    server: 18.133.240.117
-    skip-cert-verify: true
-    tfo: false
-    type: ss
-    udp: true
-  - alterId: 0
-    cipher: ''
-    client-fingerprint: random
-    name: "\U0001F1F8\U0001F1ECSG_1|4.7MB/s"
-    network: ws
-    port: 443
-    server: freev2.cloudflare.182682.xyz
-    skip-cert-verify: true
-    tfo: false
-    tls: true
-    type: vless
-    uuid: 1955487c-1f99-45df-867f-04bfbbf28f8d
-    ws-opts:
-      headers:
-        Host: do-sgp1.862400.xyz
-      path: /announcement
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    servername: do-sgp1.862400.xyz
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1EB\U0001F1F7FR_1|5.1MB/s|SoliSpirit"
-    password: jCBjo5sBUgszopkyu6cYHV
-    port: 443
-    server: 62.210.88.22
-    type: ss
-    udp: true
-  - alterId: 0
-    cipher: ''
-    client-fingerprint: random
-    name: "\U0001F1EE\U0001F1E9ID_1|3.6MB/s"
-    network: ws
-    port: 443
-    server: www.visa.com.hk
-    skip-cert-verify: true
-    tfo: false
-    tls: true
-    type: vless
-    uuid: 1955487c-1f99-45df-867f-04bfbbf28f8d
-    ws-opts:
-      headers:
-        Host: oracle-id-batam.862400.xyz
-      path: /announcement
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    servername: oracle-id-batam.862400.xyz
-  - alterId: 0
-    cipher: ''
-    client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1EE\U0001F1E9ID_2|3.5MB/s"
-    network: tcp
-    port: 53300
-    reality-opts:
-      public-key: ''
-      short-id: ''
-    server: aws-linkidnvip2.evoay.com
-    skip-cert-verify: true
-    tfo: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6c0472bc-82df-449e-90bd-2f91c6a46402
-    servername: www.lamer.com.sg
-  - alpn:
-      - h3h2
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1FA\U0001F1E6UA_1|11.7MB/s|SoliSpirit"
-    network: ws
-    port: 443
-    server: 104.26.6.89
-    tls: true
-    type: vless
-    udp: true
-    uuid: 5ec3a039-ea63-4bf9-a848-a65c9bfa66f5
-    ws-opts:
-      headers:
-        Host: gb-42123.shenzogmbh.com
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/60.0.3112.90 Safari/537.36
-      path: /api/v1
-    xudp: true
-    servername: gb-42123.shenzogmbh.com
-  - cipher: aes-256-cfb
-    name: "\U0001F1F0\U0001F1F7KR_1|3.8MB/s"
-    password: test.+
-    port: 30446
-    server: testkr3.ssv.vc
-    skip-cert-verify: true
-    tfo: false
-    tls: true
-    type: http
-    udp: true
-    username: test
-    sni: testkr3.ssv.vc
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1FA\U0001F1F8US_2|25.2MB/s|SoliSpirit"
-    network: tcp
-    port: 56565
-    reality-opts:
-      public-key: Td03Ae-cuYLq4xg7MSps58c_yRUcbbwtZLXm0ywabjY
-      short-id: ''
-    server: 147.182.212.232
-    tls: true
-    type: vless
-    udp: true
-    uuid: 7b188eea-b08f-42c2-bac7-d3b0e74218b8
-    xudp: true
-    servername: www.paypal.com
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1E9\U0001F1EADE_4|8.9MB/s|SoliSpirit"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: JxP4rmXkxYRzWvGW6cBI1FbMBdCk1D8183Hvzn-63mo
-      short-id: 99a88f5b
-    server: socialup.live
-    tls: true
-    type: vless
-    udp: true
-    uuid: 078534af-d6e0-453a-80e0-c61de7e98b81
-    xudp: true
-    servername: st.ozone.ru
   - cipher: aes-128-gcm
-    name: "\U0001F1FA\U0001F1F8US_3|54.1MB/s|SoliSpirit"
+    name: "\U0001F1FA\U0001F1F8US_1|26.1MB/s|SoliSpirit"
+    password: shadowsocks
+    port: 443
+    server: 156.146.38.170
+    type: ss
+    udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1E8\U0001F1E6CA_1|7.0MB/s|SoliSpirit"
+    password: JIhN6rBKkaEboLNXVSv5rq
+    port: 80
+    server: 142.4.216.225
+    type: ss
+    udp: true
+  - cipher: aes-256-gcm
+    name: "\U0001F1FA\U0001F1F8US_2|26.6MB/s|SoliSpirit"
+    password: g5MeD6Ft3CWlJId
+    port: 5003
+    server: 38.91.102.40
+    type: ss
+    udp: true
+  - cipher: aes-128-gcm
+    name: "\U0001F1FA\U0001F1F8US_3|6.6MB/s|SoliSpirit"
+    password: shadowsocks
+    port: 443
+    server: 37.19.198.244
+    type: ss
+    udp: true
+  - cipher: aes-128-gcm
+    name: "\U0001F1FA\U0001F1F8US_4|7.3MB/s|SoliSpirit"
     password: shadowsocks
     port: 443
     server: 37.19.198.160
     type: ss
     udp: true
-  - client-fingerprint: safari
-    encryption: none
-    grpc-opts:
-      grpc-service-name: ae025fe0c98481d87a29ea55
-    name: "\U0001F1FA\U0001F1F8US_4|5.6MB/s|SoliSpirit"
-    network: grpc
-    port: 443
-    reality-opts:
-      public-key: TmgrGZmL1ApnHm5QADS3fqwPK68UT5UPo0sKI7Cnyx0
-      short-id: 6b6a755c2fe57f9f
-    server: 147.93.184.37
-    tls: true
-    type: vless
-    udp: true
-    uuid: 93d083df-687f-47f6-b72f-4d66dd555708
-    xudp: true
-    servername: www.google.com
-  - alpn:
-      - ''
-    alterId: '0'
-    cipher: auto
-    name: "\U0001F1E9\U0001F1EADE_5|5.5MB/s|SoliSpirit"
-    network: ws
-    port: 80
-    server: 141.101.120.60
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
-    ws-opts:
-      headers:
-        Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-      path: >-
-        /?---@AZARBAYKAB1---@AZARBAYJAB1---@AZARBAYJAB1---@AZARBAYJAB1---@AZARBAYJAB1/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: TM_AZARBSYJAB1.NEW.1.PAGES.DEV.
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F3\U0001F1F1NL_1|10.7MB/s|SoliSpirit"
-    password: cvII85TrW6n0OGyfpHVS1u
+  - cipher: rc4-md5
+    name: "\U0001F1FA\U0001F1F8US_5|95.2MB/s|SoliSpirit"
+    password: 14fFPrbezE3HDZzsMOr6
     port: 8080
-    server: 45.87.175.190
+    server: 107.151.182.253
     type: ss
     udp: true
-  - http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1EB\U0001F1F7FR_2|8.0MB/s|SoliSpirit"
-    network: tcp
-    port: 50268
-    server: 95.164.45.122
-    type: vless
+  - cipher: aes-256-cfb
+    name: "\U0001F1FA\U0001F1F8US_6|32.7MB/s|SoliSpirit"
+    password: f8f7aCzcPKbsF8p3
+    port: 989
+    server: 104.192.226.106
+    type: ss
     udp: true
-    uuid: 005a5104-82c5-4a6b-b023-6e621ec9071d
-    xudp: true
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1ED\U0001F1FAHU_1|4.5MB/s|SoliSpirit"
-    network: tcp
+  - cipher: aes-128-gcm
+    name: "\U0001F1FA\U0001F1F8US_7|6.9MB/s|SoliSpirit"
+    password: shadowsocks
     port: 443
-    reality-opts:
-      public-key: QcLolUMiP0LHoLPK6Rmo-8oHP1PENs9BRWF6tcByu2E
-      short-id: 28ba7940
-    server: 38.244.156.36
-    tls: true
-    type: vless
+    server: 37.19.198.243
+    type: ss
     udp: true
-    uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
-    xudp: true
-    servername: vk.cc
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1EB\U0001F1F7FR_3|5.2MB/s|SoliSpirit"
-    network: ws
-    port: 443
-    server: 162.159.44.75
-    tls: true
-    type: vless
-    udp: true
-    uuid: a02fd758-c58b-48a8-bfb3-2b451ab44bb5
-    ws-opts:
-      headers:
-        Host: 638971674693810969.brussels-prmpl-aaaad.com
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/69.0.3497.100 Safari/537.36
-      path: /fiedpnws
-    xudp: true
-    servername: 638971674693810969.brussels-prmpl-aaaad.com
   - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F3\U0001F1F1NL_2|4.1MB/s|SoliSpirit"
-    password: EacZIMFwmMCR6dWqN5Ah0c
-    port: 1419
-    server: 194.135.46.13
+    name: "\U0001F1F2\U0001F1FDMX_1|21.2MB/s|SoliSpirit"
+    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+    port: 990
+    server: 147.78.1.230
     type: ss
     udp: true
-  - alpn:
-      - ''
-    alterId: '0'
-    cipher: auto
-    name: "\U0001F1E9\U0001F1EADE_6|5.8MB/s|SoliSpirit"
-    network: tcp
-    port: 40878
-    server: 85.195.101.122
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: f3d4167e-b15e-4e46-82e9-9286ef93fda7
-    xudp: true
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1E6\U0001F1F9AT_1|5.0MB/s|SoliSpirit"
-    network: tcp
-    port: 6033
-    reality-opts:
-      public-key: mDXYds1gITU7tWHpZPZ8-ufrqTV1TU7-c-hXtpLNaDo
-      short-id: 59c1a41ef8721307
-    server: kolhozkey1.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 94b249c1-5fa5-4c38-bd27-13df65a61318
-    xudp: true
-    servername: amazon.it
-  - alpn:
-      - h3
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1FA\U0001F1F8US_5|6.9MB/s|SoliSpirit"
-    network: ws
+  - cipher: aes-128-gcm
+    name: "\U0001F1FA\U0001F1F8US_8|6.9MB/s|SoliSpirit"
+    password: shadowsocks
     port: 443
-    server: 104.18.82.55
-    tls: true
-    type: vless
+    server: 156.146.38.169
+    type: ss
     udp: true
-    uuid: 29187857-4a1f-4d1e-88eb-0016771e0dbb
-    ws-opts:
-      headers:
-        Host: vless.hubp.de
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 6.0; vivo 1610 Build/MMB29M)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile
-          Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: vless.hubp.de
-  - alpn:
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1FA\U0001F1F8US_6|3.5MB/s|SoliSpirit"
-    network: ws
-    port: 8443
-    server: 141.101.122.17
-    tls: true
-    type: vless
-    udp: true
-    uuid: 29187857-4a1f-4d1e-88eb-0016771e0dbb
-    ws-opts:
-      headers:
-        Host: vless.hubp.de
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/70.0.3538.67 Safari/537.36
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-    xudp: true
-    servername: vless.hubp.de
-  - alpn:
-      - ''
-    alterId: '0'
-    cipher: auto
-    name: "\U0001F1E9\U0001F1EADE_8|6.4MB/s|SoliSpirit"
-    network: ws
-    port: 20086
-    server: 91.99.185.216
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 7bd6a1ea-a220-4f1c-afed-6cfb8ab96ad9
-    ws-opts:
-      headers: {}
-      path: /
-    xudp: true
-  - client-fingerprint: chrome
-    encryption: none
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1ED\U0001F1FAHU_2|5.0MB/s|SoliSpirit"
-    network: tcp
-    port: 17267
-    reality-opts:
-      public-key: SnWZg6ORcQepuWLI1EVCTTVc4KyfDiGWR4o_CXCMhgk
-      short-id: 4ae260
-    server: 5.182.38.91
-    tls: true
-    type: vless
-    udp: true
-    uuid: 1c7fcc38-e6be-43c5-875f-b8de2516b9f2
-    xudp: true
-    servername: yahoo.com
-  - client-fingerprint: chrome
-    encryption: none
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1E7\U0001F1EABE_1|5.4MB/s|SoliSpirit"
-    network: tcp
-    port: 58164
-    reality-opts:
-      public-key: 7cbcFHSx2vqz38zW9BmlSIHTTSdNtlgv_S5uZ0MSIAE
-      short-id: 788456bc
-    server: 45.83.20.34
-    tls: true
-    type: vless
-    udp: true
-    uuid: 34c9f621-0614-4b7f-aab3-c4400bb15a89
-    xudp: true
-    servername: yahoo.com
-  - alpn:
-      - h3h2
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F3\U0001F1F1NL_5|5.6MB/s|SoliSpirit"
-    network: ws
-    port: 443
-    server: ipw.gfdv54cvghhgfhgj-njhgj64.info
-    tls: true
-    type: vless
-    udp: true
-    uuid: 0423f7a2-87bd-4302-95e2-c3c01881bdc7
-    ws-opts:
-      headers:
-        Host: DdLxDxZc1.VeLiNtO.OrG
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/53.0.2785.143 Safari/537.36
-      path: /
-    xudp: true
-    servername: DdLxDxZc1.VeLiNtO.OrG
-  - client-fingerprint: chrome
-    encryption: none
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1E6\U0001F1F9AT_2|10.2MB/s|SoliSpirit"
-    network: tcp
-    port: 24170
-    reality-opts:
-      public-key: rhEEZAZBX-seWl5f0JmyE19Iwxb5zTNH5yT-FhaS8Hw
-      short-id: 200f99e321
-    server: 5.181.21.152
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6a8ee307-a1fb-4801-92e2-86253ecdd88d
-    xudp: true
-    servername: yahoo.com
-  - alpn:
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1FA\U0001F1F8US_7|6.3MB/s|SoliSpirit"
-    network: ws
-    port: 2083
-    server: 104.16.33.150
-    tls: true
-    type: vless
-    udp: true
-    uuid: 29187857-4a1f-4d1e-88eb-0016771e0dbb
-    ws-opts:
-      headers:
-        Host: vless.hubp.de
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/56.0.2924.87 Safari/537.36
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-    xudp: true
-    servername: vless.hubp.de
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1F3\U0001F1F1NL_6|5.1MB/s|SoliSpirit"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: GofDu1_VYmj-QvNZZShKrPEw5_rAVDpxohAwZwJ8cjw
-      short-id: a60d
-    server: 109.120.150.205
-    tls: true
-    type: vless
-    udp: true
-    uuid: 0ba6ab83-ed33-4544-98b0-dcacb52799cd
-    xudp: true
-    servername: ad.mail.ru
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F1\U0001F1FBLV_1|4.9MB/s|SoliSpirit"
-    network: ws
-    port: 443
-    server: nodegcf.azurka.org
-    tls: true
-    type: vless
-    udp: true
-    uuid: ff84dbed-bbfb-42d8-b397-b0ec025fb570
-    ws-opts:
-      headers:
-        Host: nodegcf.azurka.org
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
-      path: /ws
-    xudp: true
-    servername: nodegcf.azurka.org
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F3\U0001F1F1NL_7|5.2MB/s|SoliSpirit"
-    network: tcp
-    port: 14915
-    reality-opts:
-      public-key: VxVMU7int2JsYtzo5AaGXbg3_3YUmYjx0PXP179N73Y
-      short-id: 0472c30c
-    server: 82.115.6.101
-    tls: true
-    type: vless
-    udp: true
-    uuid: 3d11ab83-5a26-4bde-9883-ec490396703f
-    xudp: true
-    servername: yahoo.com
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_9|9.5MB/s|SoliSpirit"
-    network: ws
-    port: 2053
-    server: 104.26.6.89
-    tls: true
-    type: vless
-    udp: true
-    uuid: e188a23f-f17a-4a61-8a48-aa83b3653f5d
-    ws-opts:
-      headers:
-        Host: om4.omidsuccess.uk
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/61.0.3163.100 Safari/537.36
-      path: /containers/de
-    xudp: true
-    servername: om4.omidsuccess.uk
-  - client-fingerprint: chrome
-    encryption: none
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1FA\U0001F1F8US_9|294.1MB/s|SoliSpirit"
-    network: tcp
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1E8\U0001F1E6CA_2|8.2MB/s|SoliSpirit"
+    password: JIhN6rBKkaEboLNXVSv5rq
     port: 80
-    reality-opts:
-      public-key: gjqpZwbvw3D0RpyjPOkQBpNLbmJqU_0vPcnfwx0hDi4
-      short-id: 711a0eb848
-    server: 137.220.56.53
-    tls: true
-    type: vless
+    server: ca225.vpnbook.com
+    type: ss
     udp: true
-    uuid: 4fd8223c-9c1c-414e-a65e-ee2d30b16adc
-    xudp: true
-    servername: journalofbigdata.springeropen.com
-  - client-fingerprint: chrome
-    encryption: none
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1EB\U0001F1EEFI_1|8.3MB/s|SoliSpirit"
-    network: tcp
-    port: 17422
-    reality-opts:
-      public-key: 0r5rlmvACX09qUTPuxrbuKWSAn66NnNyHIfIMwalYAA
-      short-id: '33'
-    server: 5.181.20.219
-    tls: true
-    type: vless
-    udp: true
-    uuid: fe837fd0-840d-4cee-9334-0dc6c2b15c1c
-    xudp: true
-    servername: yahoo.com
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1FA\U0001F1F8US_10|8.4MB/s|SoliSpirit"
-    network: tcp
+  - cipher: aes-128-gcm
+    name: "\U0001F1FA\U0001F1F8US_9|11.7MB/s|SoliSpirit"
+    password: shadowsocks
     port: 443
-    server: 165.140.216.141
-    skip-cert-verify: false
-    tls: false
-    type: vmess
+    server: 156.146.38.168
+    type: ss
     udp: true
-    uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
-    xudp: true
+  - cipher: aes-128-gcm
+    name: "\U0001F1FA\U0001F1F8US_10|13.8MB/s|SoliSpirit"
+    password: shadowsocks
+    port: 443
+    server: 156.146.38.167
+    type: ss
+    udp: true
   - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1FA\U0001F1F8US_11|8.1MB/s|SoliSpirit"
+    name: "\U0001F1FA\U0001F1F8US_11|35.6MB/s|SoliSpirit"
+    password: f8f7aCzcPKbsF8p3
+    port: 990
+    server: 104.192.226.106
+    type: ss
+    udp: true
+  - cipher: aes-256-cfb
+    name: "\U0001F1E8\U0001F1E6CA_3|36.6MB/s|SoliSpirit"
+    password: f8f7aCzcPKbsF8p3
+    port: 989
+    server: 79.127.233.170
+    type: ss
+    udp: true
+  - cipher: aes-128-gcm
+    name: "\U0001F1FA\U0001F1F8US_12|9.2MB/s|SoliSpirit"
+    password: shadowsocks
+    port: 443
+    server: 173.244.56.6
+    type: ss
+    udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1E8\U0001F1E6CA_4|37.7MB/s|SoliSpirit"
+    password: f8f7aCzcPKbsF8p3
+    port: 990
+    server: 79.127.233.170
+    type: ss
+    udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1FA\U0001F1F8US_13|15.0MB/s|SoliSpirit"
     password: f8f7aCzcPKbsF8p3
     port: 990
     server: 64.74.163.218
     type: ss
     udp: true
-  - encryption: none
-    name: "\U0001F1E9\U0001F1EADE_10|7.4MB/s|SoliSpirit"
-    network: ws
-    port: 443
-    server: 91.99.177.36
-    type: vless
-    udp: true
-    uuid: 77dacbb9-eb50-487e-adc7-f1f2cb4cb19c
-    ws-opts:
-      headers:
-        Host: 91.99.177.36
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/69.0.3497.100 Safari/537.36
-      path: /linkws
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1F2\U0001F1E9MD_1|4.6MB/s|SoliSpirit"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: eYFJombyzUhLsqA8NfdHUBJdStTt7NN-Z63fuyAJUTc
-      short-id: 1127691d
-    server: 185.242.84.181
-    tls: true
-    type: vless
-    udp: true
-    uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
-    xudp: true
-    servername: vk.cc
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
