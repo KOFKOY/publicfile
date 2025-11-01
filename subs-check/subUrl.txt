@@ -10,6 +10,6 @@ https://raw.githubusercontent.com/SoliSpirit/v2ray-configs/main/all_configs.txt#
 #https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/clashmeta.txt#Barabama5
 #https://raw.githubusercontent.com/xiaoji235/airport-free/main/v2ray/v2rayshare.txt#xiaoji1
 #https://raw.githubusercontent.com/xiaoji235/airport-free/main/v2ray.txt#xiaoji2
-https://mxlsub.qzz.io/new#佬new
+#https://mxlsub.qzz.io/new#佬new
 #https://sublink.wsj.ip-ddns.com/c/wsj#自建cf单节点
 https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/refs/heads/Jsnzkpg/Jsnzkpg
